@@ -46,10 +46,14 @@ p {
 }
 
 .rating__box {
-    background-color: var(--dark-blue);
     padding: 1.8rem 1.5rem;
     border-radius: 0.875rem;
     max-width: 285.406px;
+    background-image: radial-gradient(
+        circle at 85% 80%,
+        hsla(213, 19%, 18%, 0.61) 70%,
+        hsl(213, 19%, 18%)
+    );
 }
 
 .rating__start__img img {
